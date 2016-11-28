@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Bank | E-Shopper</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+
+	<!--  add this  -->
+
+	<link href="css/myStyle.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precompos.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body style="background-color: #f0f0f0">
+	<header id="header"><!--header-->
+		
+		
+		
+	</header><!--/header-->
+
+	<section id="cart_items" >
+		<div class="container" >
+			
+			
+			<div  class="col-sm-8 col-sm-offset-2" >
+
+				<div class="register-req">
+						<p style="text-align:center;font-weight:bold;font-size:20px;">
+							پرداخت اینترنتی پارسیان
+						</p>
+				</div>
+				<div class="col-sm-12 " style="border-color:#696763;border-top-right-radius:15px;border-top-left-radius:15px;background-color:white">
+					
+					<div class="row" style="direction:rtl;">
+						 <p style="padding-right:5px;background-color:#F58220;border-top-right-radius:15px;border-top-left-radius:15px">
+						اطلاعات پرداخت
+						</p>
+
+
+						<div class="table-responsive ">
+						<table class="table table-condensed" style="direction:rtl">
+							<thead>
+								<tr class="cart_menu">
+									<td>مبلغ قابل پرداخت</td>
+									<td>نام پذیرنده</td>
+									<td>شماره پذیرنده</td>
+									<td>آدرس اینترنتی پذیرنده</td>
+								</tr>
+
+							</thead>
+							<tbody>
+									<tr>
+									<td>۳۰۰۰۰۰</td>
+									<td>فروشگاه اینترنتی ما</td>
+									<td>۴۰۳۸۲۸۴۴</td>
+									<td>www.oursiteaddres.com</td>
+								</tr>
+
+							</tbody>
+
+						</table>
+
+
+					</div>
+
+					</div>
+
+
+				</div>
+
+
+
+				<div class="col-sm-4 " style="margin:15px;margin-right:0px;width:45%;float:right;border-color:#696763;border-top-right-radius:15px;border-top-left-radius:15px;background-color:white">
+					
+					<div class="row" style="direction:rtl;">
+						 <p style="padding-right:5px;background-color:#F58220;border-top-right-radius:15px;border-top-left-radius:15px">
+							اطلاعات کارت
+						</p>
+						
+						<div >
+						
+							<div class="login-form" style="padding:20px;"><!--login form-->
+								<h2 style="float:right;">اطلاعات کارت بانکی خود را وارد نمایید</h2>
+								<form action="#">
+									<input type="text" placeholder="شماره کارت"  />
+									<input type="text" placeholder="رمز دوم کارت" />
+									<input type="text" placeholder="CVV2"  />
+									<span style="float:right;">
+										
+										<input type="text" placeholder="سال" maxlength="2" style="width:50px;height:40px;" />
+										<input type="text" placeholder="ماه" maxlength="2" style="width:50px;height:40px;" />
+									</span>
+									<input type="email" placeholder="ایمیل اختیاری" />
+									<span style="display:inline-block" >
+										<button style="float:right;margin-left:40px;" type="submit" class="btn">پرداخت</button>
+										<button type="submit" style="float:left;margin-left:70px;" class="btn">انصراف</button>
+									</span>
+								</form>
+							</div><!--/login form-->
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-sm-4 " style="margin:15px;margin-left:0px;direction:rtl;background-color:white;width:45%;border-color:#696763;border-top-right-radius:15px;border-top-left-radius:15px;">
+					<div class="row" style="direction:rtl;">
+					
+						 <p style="padding-right:5px;background-color:#F58220;border-top-right-radius:15px;border-top-left-radius:15px">
+							راهنمای انجام تراکنش اینترنتی
+						</p>
+					
+						 <span style="font-weight:bold;margin:25px;">
+	                                    سقف تراکنش روزانه :
+	                    </span>
+	                    <span  style="font-weight:bold;">500,000,000 ريال</span>
+	                   
+
+	                    <ul style="font-size: 12px; color: #696763; margin-top: 20px; text-align: right;margin-right:-20px;">
+	                        <li>مشتری گرامی شما با پروتكل امن (SSL) به دروازه پرداخت الكترونيك پارسيان كه با آدرس
+	                            https://pec.shaparak.ir شروع می شود متصل شده ايد. </li>
+	                        
+	                        <li>لطفا از صحت نام فروشنده و مبلغ نمايش داده شده، اطمينان حاصل فرماييد. </li>
+	                        <li>نحوه ورود اطلاعات:</li>
+	                        <li>شماره کارت: شماره کارت 16 رقمی مندرج بر روی کارت.</li>
+	                        <li>رمز دوم کارت: رمز دوم(یا رمز اینترنتی) دریافت شده از بانک صادرکننده و یا خودپرداز.</li>
+	                        <li>CVV2: کد سه یا چهار رقمی مندرج در پشت و روی کارت.</li>
+	                        <li>تاریخ انقضا: ماه و سال انقضای کارت مندرج بر روی کارت.</li>
+	                        
+	                        <li>ایمیل(اختیاری): ورود آدرس ایمیل در صورت نیاز به دریافت رسید پرداخت.</li>
+	                    </ul>
+	                 </div>
+				</div>
+				<div class="row">
+                    <div class="col-sm-12" style="float:right;">
+                        <div class="panel  panel-warning">
+                            <div class="panel-heading panel-warning" style="background-color: #354487; color: #ffffff;direction:rtl;text-align:center;">
+                                <b>مرکز پاسخگویی مشتریان :2318-021 </b>
+                                <br>
+                                <div>
+                                    کليه حقوق اين سايت متعلق به شرکت تجارت الکترونيک پارسيان می باشد.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+
+
+			<!-- -->
+		</div>
+	</section> <!--/#cart_items-->
+
+	<section id="do_action">
+		<div class="container">
+			
+		</div>
+	</section><!--/#do_action-->
+
+	
+
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+<style type="text/css">
+	
+	input{
+		direction:rtl;
+	}
+</style>
+</html>
