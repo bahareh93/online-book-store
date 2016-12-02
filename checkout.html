@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Checkout | E-Shopper</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+    <!--  add this  -->
+        
+    <link href="css/myStyle.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+	<header id="header"><!--header-->
+		<div class="header-middle"><!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="index.html"><img src="images/home/logo.png" alt="" height="50" width="70"></a>
+						</div>
+						
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="login.html"><i class="fa fa-lock"></i>ورود</a></li>
+								<li><a href=""><i class="fa fa-user"></i> حساب کاربری</a></li>
+								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> صورت حساب</a></li>
+								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> سبد خرید</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-middle-->
+	
+        <div class="header-bottom"><!--header-bottom-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-14">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="mainmenu pull-right">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li><a href="index.html">خانه</a></li>
+								<li><a href="index.html">محصولات</a></li>
+								<!--<li class="dropdown"><a href="#">محصولات<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="shop.html">Products</a></li>
+										
+                                    </ul>
+                                </li> 
+								-->
+								<li><a href="contact-us.html">تماس با ما</a></li>
+								<li><a href="contact-us.html">درباره ما</a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div><!--/header-bottom-->
+	</header><!--/header-->
+	
+
+	<section id="cart_items">
+		<div class="container">
+			<div class="step-one" style="direction: rtl;">
+				<h2 class="heading">مرحله ۱</h2>
+			</div>
+
+			<div class="shopper-informations">
+				<div class="row" style="direction: rtl;">
+					<div class="col-sm-3" style="float: right;">
+						<div class="shopper-info">
+							<p>اطلاعات خریدار</p>
+							<form>
+								<input type="text" placeholder="نام کاربری">
+								<input type="password" placeholder="رمز عبور">
+								<input type="password" placeholder="تکرار رمز عبور">
+							</form>
+							<a class="btn btn-primary" href="">ادامه</a>
+						</div>
+					</div>
+					<div class="col-sm-5 clearfix" style="float: right;" >
+						<div class="bill-to">
+							<p>صورت حساب</p>
+							<div class="form-one">
+                                <form>
+                                    <select>
+                                        <option>-- شهر --</option>
+                                        <option>تهران</option>
+                                        <option>اصفهان</option>
+                                        <option>تبریز</option>
+                                        <option>مشهد</option>
+                                        <option>شیراز</option>
+                                        <option>اهواز</option>
+                                        <option>ارومیه</option>
+                                        <option>قم</option>
+                                    </select>
+                                    <input type="text" placeholder="کد پستی" style="margin-top: 10px;">
+                                    <input type="text" placeholder="تلفن">
+                                    <input type="text" placeholder="تلفن همراه">
+                                    <input type="text" placeholder="فکس">
+
+                                </form>
+
+							</div>
+							<div class="form-two">
+                                <form>
+                                    <input type="text" placeholder="نام">
+                                    <input type="text" placeholder="نام خانوادگی">
+                                    <input type="text" placeholder="آدرس">
+                                    <input type="text" placeholder="پست الکترونیک">
+                                </form>
+                            </div>
+						</div>
+					</div>
+								
+				</div>
+			</div>
+			<div class="review-payment" style="direction: rtl;">
+				<h2>بازبینی و پرداخت</h2>
+			</div>
+
+			<div class="table-responsive cart_info" style="direction: rtl;">
+				<table class="table table-condensed">
+					<thead>
+						<tr class="cart_menu" align="center">
+							<td class="image">کتاب</td>
+							<td class="description">توضیحات</td>
+							<td class="price">قیمت</td>
+							<td class="quantity">تعداد</td>
+							<td class="total">مجموع</td>
+							<td></td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr align="center">
+							<td class="cart_product">
+								<a href=""><img src="images/cart/one.jpg" alt=""></a>
+							</td>
+							<td class="cart_description">
+                                <p>نام نویسنده:</p>
+                                <p>دسته بندی:</p>
+                                <p>سال انتشار:</p>
+                                <p>ناشر:</p>
+							</td>
+							<td class="cart_price">
+								<p>۵۹۰۰۰ تومان</p>
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+                                    <a class="cart_quantity_down" href=""> - </a>
+									<input class="cart_quantity_input" type="text" name="quantity" value="۱" autocomplete="off" size="2">
+                                    <a class="cart_quantity_up" href=""> + </a>
+								</div>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">۵۹۰۰۰ تومان</p>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
+							</td>
+						</tr>
+
+						<tr align="center">
+							<td class="cart_product">
+								<a href=""><img src="images/cart/two.jpg" alt=""></a>
+							</td>
+							<td class="cart_description">
+                                <p>نام نویسنده:</p>
+                                <p>دسته بندی:</p>
+                                <p>سال انتشار:</p>
+                                <p>ناشر:</p>
+							</td>
+							<td class="cart_price">
+								<p>۵۹۰۰۰ تومان</p>
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+                                    <a class="cart_quantity_down" href=""> - </a>
+									<input class="cart_quantity_input" type="text" name="quantity" value="۱" autocomplete="off" size="2">
+                                    <a class="cart_quantity_up" href=""> + </a>
+
+								</div>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">۵۹۰۰۰ تومان</p>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
+							</td>
+						</tr>
+						<tr align="center">
+							<td class="cart_product">
+								<a href=""><img src="images/cart/three.jpg" alt=""></a>
+							</td>
+							<td class="cart_description">
+                                <p>نام نویسنده:</p>
+                                <p>دسته بندی:</p>
+                                <p>سال انتشار:</p>
+                                <p>ناشر:</p>
+							</td>
+							<td class="cart_price">
+								<p>۵۹۰۰۰ تومان</p>
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+                                    <a class="cart_quantity_down" href=""> - </a>
+									<input class="cart_quantity_input" type="text" name="quantity" value="۱" autocomplete="off" size="2">
+                                    <a class="cart_quantity_up" href=""> + </a>
+								</div>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">۵۹۰۰۰ تومان</p>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
+							</td>
+						</tr>
+						<tr align="center">
+							<td colspan="4">&nbsp;</td>
+							<td colspan="2">
+								<table class="table table-condensed total-result">
+									<tr>
+										<td>جمع سبد خرید</td>
+										<td>۵۹۰۰۰ تومان</td>
+									</tr>
+									<tr>
+										<td>مالیات</td>
+										<td>۱۰۰۰ تومان</td>
+									</tr>
+									<tr class="shipping-cost">
+										<td>هزینه حمل و نقل</td>
+										<td>رایگان</td>
+									</tr>
+									<tr>
+										<td>مجموع</td>
+										<td><span>۶۰۰۰۰ تومان</span></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+        </div>
+	</section> <!--/#cart_items-->
+
+	
+    <footer id="footer"><!--Footer-->
+        <div class="footer-top" >
+            <div class="container" style=direction:rtl;>
+                <div class="row" >
+                    <div class="col-sm-3">
+                        <div class="address">
+                            <img src="images/home/map.png" alt="" />
+                            <p> آدرس شرکت</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="companyinfo" >
+                            <h2><span>کتاب-</span>آنلاین</h2>
+                            <p>توضیحات درباره کتاب-آنلاین</p>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+    </footer><!--/Footer-->
+
+	
+
+
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
