@@ -13,6 +13,8 @@
     <link href="css/animate.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
+    
+
     <!--  add this  -->
         
     <link href="css/myStyle.css" rel="stylesheet">
@@ -25,6 +27,8 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+
 </head><!--/head-->
 
 <body>
@@ -97,21 +101,42 @@
 				<div class="row" style="direction: rtl;">
 					<div class="col-sm-3" style="float: right;">
 						<div class="shopper-info">
-							<p>اطلاعات خریدار</p>
+
+							 <div class="radio" >
+            					<input type="radio" name="info" value="yes"/>
+            					<label style="font-size:17px;">استفاده از حساب کاربری</label>
+            				</div>
+							
 							<form>
 								<input type="text" placeholder="نام کاربری">
 								<input type="password" placeholder="رمز عبور">
 								<input type="password" placeholder="تکرار رمز عبور">
 							</form>
-							<a class="btn btn-primary" href="">ادامه</a>
 						</div>
 					</div>
-					<div class="col-sm-5 clearfix" style="float: right;" >
+					<div class="col-sm-3 clearfix" style="float: right;" >
 						<div class="bill-to">
-							<p>صورت حساب</p>
-							<div class="form-one">
+							 <div class="radio" >
+            					<input type="radio" name="info" value="no"/>
+            					<label style="font-size:17px;">ارسال هدیه</label>
+            				</div>
+							   <div class="shopper-info">
                                 <form>
-                                    <select>
+                                   <input type="text" placeholder="نام">
+                                    <input type="text" placeholder="نام خانوادگی">
+                                     <input type="text" placeholder="پست الکترونیک">
+                                   
+                                  
+                                </form>
+                            	</div>
+                        </div>
+                    </div>   
+                    <div class="col-sm-3 clearfix" style="float: right;" >
+						<div class="bill-to" style="margin-top:37px;">
+						
+							<div class="shopper-info" >
+                                <form>
+                                    <select style="height:39px;">
                                         <option>-- شهر --</option>
                                         <option>تهران</option>
                                         <option>اصفهان</option>
@@ -122,22 +147,25 @@
                                         <option>ارومیه</option>
                                         <option>قم</option>
                                     </select>
-                                    <input type="text" placeholder="کد پستی" style="margin-top: 10px;">
-                                    <input type="text" placeholder="تلفن">
-                                    <input type="text" placeholder="تلفن همراه">
-                                    <input type="text" placeholder="فکس">
+                                     <input  style="margin-top:10px;" type="text" placeholder="آدرس">
+                                    <input type="text" placeholder="کد پستی" >
+                                  
 
                                 </form>
 
 							</div>
-							<div class="form-two">
+						</div>
+					</div>
+					<div class="col-sm-3 clearfix" style="float: right;" >
+						<div class="bill-to"  style="margin-top:37px;">
+							<div class="shopper-info">
                                 <form>
-                                    <input type="text" placeholder="نام">
-                                    <input type="text" placeholder="نام خانوادگی">
-                                    <input type="text" placeholder="آدرس">
-                                    <input type="text" placeholder="پست الکترونیک">
+                                     <input type="text" placeholder="تلفن">
+                                    <input type="text" placeholder="تلفن همراه">
+                                    <input type="text" placeholder="فکس">
                                 </form>
                             </div>
+                         
 						</div>
 					</div>
 								
@@ -160,9 +188,9 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr align="left">
+						<tr align="center">
 							<td class="cart_product">
-								<a href=""><img src="images/cart/one.jpg" alt=""  style="height: 250px; width: 150px"></a>
+								<a href=""><img src="images/cart/one.jpg" alt=""></a>
 							</td>
 							<td class="cart_description">
                                 <p>نام نویسنده:</p>
@@ -188,9 +216,9 @@
 							</td>
 						</tr>
 
-						<tr align="left">
-							<td class="cart_product" >
-								<a href=""><img src="images/cart/two.jpg" alt="" style="height: 250px; width: 150px"></a>
+						<tr align="center">
+							<td class="cart_product">
+								<a href=""><img src="images/cart/two.jpg" alt=""></a>
 							</td>
 							<td class="cart_description">
                                 <p>نام نویسنده:</p>
@@ -207,33 +235,6 @@
 									<input class="cart_quantity_input" type="text" name="quantity" value="۱" autocomplete="off" size="2">
                                     <a class="cart_quantity_up" href=""> + </a>
 
-								</div>
-							</td>
-							<td class="cart_total">
-								<p class="cart_total_price">۵۹۰۰۰ تومان</p>
-							</td>
-							<td class="cart_delete">
-								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
-							</td>
-						</tr>
-						<tr align="left">
-							<td class="cart_product" >
-								<a href=""><img src="images/cart/three.jpg" alt="" style="height: 250px; width: 150px"></a>
-							</td>
-							<td class="cart_description">
-                                <p>نام نویسنده:</p>
-                                <p>دسته بندی:</p>
-                                <p>سال انتشار:</p>
-                                <p>ناشر:</p>
-							</td>
-							<td class="cart_price">
-								<p>۵۹۰۰۰ تومان</p>
-							</td>
-							<td class="cart_quantity">
-								<div class="cart_quantity_button">
-                                    <a class="cart_quantity_down" href=""> - </a>
-									<input class="cart_quantity_input" type="text" name="quantity" value="۱" autocomplete="off" size="2">
-                                    <a class="cart_quantity_up" href=""> + </a>
 								</div>
 							</td>
 							<td class="cart_total">
@@ -244,30 +245,68 @@
 							</td>
 						</tr>
 						<tr align="center">
-							<td colspan="4">&nbsp;</td>
-							<td colspan="2">
-								<table class="table table-condensed total-result">
-									<tr>
-										<td>جمع سبد خرید</td>
-										<td>۵۹۰۰۰ تومان</td>
-									</tr>
-									<tr>
-										<td>مالیات</td>
-										<td>۱۰۰۰ تومان</td>
-									</tr>
-									<tr class="shipping-cost">
-										<td>هزینه حمل و نقل</td>
-										<td>رایگان</td>
-									</tr>
-									<tr>
-										<td>مجموع</td>
-										<td><span>۶۰۰۰۰ تومان</span></td>
-									</tr>
-								</table>
+							<td class="cart_product">
+								<a href=""><img src="images/cart/three.jpg" alt=""></a>
+							</td>
+							<td class="cart_description">
+                                <p>نام نویسنده:</p>
+                                <p>دسته بندی:</p>
+                                <p>سال انتشار:</p>
+                                <p>ناشر:</p>
+							</td>
+							<td class="cart_price">
+								<p>۵۹۰۰۰ تومان</p>
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+                                    <a class="cart_quantity_down" href=""> - </a>
+									<input class="cart_quantity_input" type="text" name="quantity" value="۱" autocomplete="off" size="2">
+                                    <a class="cart_quantity_up" href=""> + </a>
+								</div>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">۵۹۰۰۰ تومان</p>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
 							</td>
 						</tr>
+                       
 					</tbody>
+
 				</table>
+				<div >
+                    <h2 class="title text-center">صورت حساب</h2>
+
+					<table class="table table-condensed total-result" style="margin-right:200px;">
+
+						<tr>
+							
+
+							<td><font size="5">جمع سبد خرید</font></td>
+							<td><font size="5">۵۹۰۰۰ تومان</font></td>
+						</tr>
+						<tr>
+						
+							
+							<td><font size="5">مالیات</font></td>
+							<td><font size="5">۱۰۰۰ تومان</font></td>
+						</tr>
+						<tr class="shipping-cost">
+							
+							<td><font size="5">هزینه حمل و نقل</font></td>
+							<td><font size="5">رایگان</font></td>
+						</tr>
+						<tr>
+							
+							<td><font size="5">مجموع</font></td>
+							<td><span><font size="5">۶۰۰۰۰ تومان</font></span></td>
+						</tr>
+
+					</table>
+
+                    <a style="display:block;margin-left:33%;margin-right:33%;" class="btn btn-primary" href="bank(Main page).html">ادامه</a>
+                </div>
 			</div>
         </div>
 	</section> <!--/#cart_items-->
@@ -289,9 +328,6 @@
                             <p>توضیحات درباره کتاب-آنلاین</p>
                         </div>
                     </div>
-                    
-                    
-                    
                 </div>
             </div>
         </div>
