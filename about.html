@@ -12,10 +12,10 @@
     <link href="css/price-range.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-	<link href="css/myStyle.css" rel="stylesheet">
-   
+	<link href="css/responsive.css" rel="stylesheet">
 
+	<link href="css/myStyle.css" rel="stylesheet">
+  
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -25,6 +25,12 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+	<style type="text/css">
+	
+	input{
+		direction:rtl;
+	}
+</style>
 </head><!--/head-->
 
 <body>
@@ -74,95 +80,81 @@
         </div><!--/header-bottom-->
 	</header><!--/header-->
 
+
+	 
 	 <div id="contact-page" class="container">
-    	<div class="bg"> 	
+    	<div class="bg">
+	    	<div class="row">    		
+	    		<div class="col-sm-12">    			   			
+					<h2 class="title text-center">درباره <strong>ما</strong></h2>
+					<div id="gmap" class="contact-map" style="direction: rtl;">
+                        <p>شرکت کتاب-آنلاین در سال ۱۳۹۵ با هدف دسترسی راحت تر هموطنان عزیز به کتاب های مورد نیاز خود آغاز به کار کرد......</p>
+
+					</div>
+				</div>			 		
+			</div>
+            
     		<div class="row">
-                <div class="col-sm-4" style="direction: rtl;">
-                    <div class="contact-info">
-                        <h2 class="title text-center">اطلاعات تماس</h2>
-                        <address>
-                            <p>شرکت کتاب-آنلاین</p>
-                            <p>ایران-تهران</p>
+	    		<div class="col-sm-4" style="direction: rtl;">
+	    			<div class="contact-info">
+	    				<h2 class="title text-center">اطلاعات تماس</h2>
+	    				<address>
+	    					<p>شرکت کتاب-آنلاین</p>
                             <p>آدرس:</p>
                             <p>تلفن:</p>
                             <p>فکس:</p>
                             <p>پست الکترونیک:</p>
-                        </address>
-                        <div class="social-networks">
-                            <h2 class="title text-center">شبکه های اجتماعی</h2>
-                            <ul>
-                                <li>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-youtube"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>    			
-
-	    		<div class="col-sm-8">
-	    			<div class="contact-form" style="direction:rtl;">
-	    				<h2 class="title text-center">با ما در تماس باشید</h2>
-	    				<div class="status alert alert-success" style="display: none"></div>
-				    	<form id="main-contact-form" class="contact-form row" name="contact-form" method="post">
-                            <div class="form-group col-md-6">
-                                <input type="email" name="email" class="form-control" required="required" placeholder="پست الکترونیک">
-                            </div>
-
-				            <div class="form-group col-md-6">
-				                <input type="text" name="name" class="form-control" required="required" placeholder="نام و نام خانوادگی">
-				            </div>
-                            <div class="form-group col-md-12">
-				                <input type="text" name="subject" class="form-control" required="required" placeholder="موضوع">
-				            </div>
-				            <div class="form-group col-md-12">
-				                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="پیامتان را اینجا بنویسید"></textarea>
-				            </div>                        
-				            <div class="form-group col-md-12">
-				                <input type="submit" name="submit" class="btn btn-primary pull-right" value="ارسال">
-				            </div>
-				        </form>
+	    				</address>
+	    				<div class="social-networks">
+	    					<h2 class="title text-center">شبکه های اجتماعی</h2>
+							<ul>
+								<li>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-youtube"></i></a>
+								</li>
+							</ul>
+	    				</div>
 	    			</div>
-	    		</div>
-            </div>
+    			</div>    			
+	    	</div>  
     	</div>	
     </div><!--/#contact-page-->
 	
-    <footer id="footer"><!--Footer-->
-        <div class="footer-top" >
-            <div class="container" style=direction:rtl;>
-                <div class="row" >
-                    <div class="col-sm-3">
-                        <div class="address">
-                            <img src="images/home/map.png" alt="" />
-                            <p> آدرس شرکت</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="companyinfo" >
-                            <h2><span>کتاب-</span>آنلاین</h2>
-                            <p>توضیحات درباره کتاب-آنلاین</p>
-                        </div>
-                    </div>
-                    
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        
-    </footer><!--/Footer-->
-
-	
+	<footer id="footer"><!--Footer-->
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="companyinfo">
+							<h2><span>کتاب-</span>آنلاین</h2>
+						</div>
+					</div>
+					
+					<div class="col-sm-3">
+						<div class="address">
+							<img src="images/home/map.png" alt="" />
+							<p>آدرس</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="footer-bottom">
+		
+		</div>
+		
+	</footer><!--/Footer-->
 
   
     <script src="js/jquery.js"></script>
